@@ -52,7 +52,7 @@ public class App {
             //int port = Integer.parseInt((String)myArgs.get(ParseArgs.PORT)); 
 
 
-            myConnection = new Connection("212.83.163.254", 8901); 
+            myConnection = new Connection("212.83.163.254", 2875); 
             myConnection.setVersion(SMPPVersion.V34); 
             myConnection.autoAckLink(false); 
             myConnection.autoAckMessages(true); 
